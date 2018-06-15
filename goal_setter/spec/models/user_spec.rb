@@ -62,23 +62,23 @@ RSpec.describe User, type: :model do
       expect(user.session_token).not_to eq(prev_session_token)
     end
   end
-  
-  describe '#ensure_session_token' do
-    context 'session_token is nil' do
-      it "assigns a session token" do
-        user.session_token = nil
-        user.ensure_session_token
-        expect(user.session_token).not_to be_nil
-      end      
-    end
-    
-    context 'session_token exists' do
-      it "does not change the session_token" do
-        token = user.session_token
-        user.ensure_session_token
-        expect(user.session_token).to eq(token)
-      end
-    end
-    
-  end
+  # 
+  # describe '#ensure_session_token' do
+  #   context 'session_token is nil' do
+  #     it "assigns a session token" do
+  #       user.session_token = nil
+  #       user.ensure_session_token
+  #       expect(user.session_token).not_to be_nil
+  #     end      
+  #   end
+  # 
+  #   context 'session_token exists' do
+  #     it "does not change the session_token" do
+  #       token = user.session_token
+  #       user.ensure_session_token
+  #       expect(user.session_token).to eq(token)
+  #     end
+  #   end
+  # 
+  # end
 end
