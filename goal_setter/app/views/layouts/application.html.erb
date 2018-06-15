@@ -11,7 +11,13 @@
   <body>
     <header>
       <% if current_user %>
-        <%= current_user.email %>
+        <div>You are signed in!</div> 
+        <div><%= current_user.email %></div> 
+        <form action="<%= session_url %>" method="post">
+          <%= auth_token %>
+          <input type="hidden" name="_method" value="delete">
+          <input type="submit" value="Sign Out">
+        </form>
       <% end %>
     </header>
     

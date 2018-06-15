@@ -21,21 +21,24 @@ feature 'the signup process' do
 end
 
 feature 'logging in' do
-  user = create_user
   
   scenario 'shows username on the homepage after login' do
-    visit "session/new"
-    fill_in "Email", with: user.email
-    fill_in "Password", with: user.password
-    click_on "Sign In"
+    user = login_new_user
     expect(page).to have_content(user.email)
     expect(current_path).to eq("/users/#{user.id}")
   end
 end
 
 feature 'logging out' do
-  scenario 'begins with a logged out state'
-
-  scenario 'doesn\'t show username on the homepage after logout'
+  scenario 'begins with a logged out state' do
+    visit "session/new"
+    expect(page).not_to have_content("You are signed in!")
+  end
+  scenario 'doesn\'t show username on the homepage after logout' do
+    user = login_new_user
+    click_on "Sign Out"
+    expect(page).not_to have_content(user.email)
+    expect(current_path).to eq("/session/new")
+  end
 
 end

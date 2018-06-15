@@ -101,6 +101,11 @@ def create_user
   User.create(user_p)
 end
 
-def method_name
-  
+def login_new_user
+  user = create_user
+  visit "session/new"
+  fill_in "Email", with: user.email
+  fill_in "Password", with: user.password
+  click_on "Sign In"
+  user
 end
