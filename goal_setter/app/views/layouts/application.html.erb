@@ -9,6 +9,12 @@
   </head>
 
   <body>
+    <header>
+      <% if current_user %>
+        <%= current_user.email %>
+      <% end %>
+    </header>
+    
     <%= yield %>
   </body>
 </html>

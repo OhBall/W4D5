@@ -94,3 +94,13 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+
+def create_user
+  user_p = {email: "#{Faker::LordOfTheRings.character}@#{Faker::LordOfTheRings.location}.com",
+            password: "#{Faker::Pokemon.name}"}
+  User.create(user_p)
+end
+
+def method_name
+  
+end

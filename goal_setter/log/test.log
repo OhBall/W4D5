@@ -1239,3 +1239,1073 @@ Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.2ms)
   [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "YSJ5EHytf1Y9DnYE2szSSw"], ["updated_at", "2018-06-15 19:26:09.802127"], ["id", 1]]
   [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 15:45:33 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 483ms (Views: 475.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:05:52 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 306ms (Views: 298.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:05:52 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:11:37 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 235ms (Views: 226.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:11:37 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:16:51 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 342ms (Views: 332.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:16:51 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:19:50 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 319ms (Views: 311.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:19:50 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:19:50 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"hnVUKSKasqXIo1d2g6cpiBl4EVNV8v+ooc5BUww8+gcdrcPRAknmhFd6TuSo/rtVs4ntWBFKRnMRNn53tVRzEA==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (15.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$MmTgFQvaa730SikrHTjbDemxwZAKjtUqSLflDDMdcK9iAizcoWwTu"], ["session_token", "uQoYQoQbcjYZYKR6D7JYEA"], ["created_at", "2018-06-15 20:19:51.058045"], ["updated_at", "2018-06-15 20:19:51.058045"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "gdR0Ik5Gas60R2AvrbH61A"], ["updated_at", "2018-06-15 20:19:51.077108"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 142ms (ActiveRecord: 17.2ms)
+Started GET "/users/1" for 127.0.0.1 at 2018-06-15 16:19:51 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (1) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+  [1m[35m (16.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:21:15 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 321ms (Views: 313.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:21:15 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:21:15 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"81qUP08gcDGDov1u4wgr7DBMiEMTQGuUMP1akk9c69I8OukIpiZNYk11QlJSHbhR6LkxA2k3M7eJy1ecDs/LXQ==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (8.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$ioHYmphC2UprTBxYE1eJKOfyGQJ5PyHB2ViF7WYw0KS5k2EsuJ9Pa"], ["session_token", "-7rMYMWIGhfgQk4Eij7zmQ"], ["created_at", "2018-06-15 20:21:15.870471"], ["updated_at", "2018-06-15 20:21:15.870471"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "rVcJcyRZPA16Eff-kTELbw"], ["updated_at", "2018-06-15 20:21:15.882415"], ["id", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 138ms (ActiveRecord: 9.6ms)
+Started GET "/users/1" for 127.0.0.1 at 2018-06-15 16:21:15 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (1) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (9.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Elrond@Núath.com"], ["password_digest", "$2a$10$ZuicyfR5gGN5S3gr3HP2qOBRvz9OwhfSM6NS0Du5nHkhdZw.Wta3u"], ["session_token", "P8VTvEk3dyXqMqxuPIQmcA"], ["created_at", "2018-06-15 20:30:21.090241"], ["updated_at", "2018-06-15 20:30:21.090241"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Denethor@Minas Tirith.com"], ["password_digest", "$2a$10$.sobwVpcApLGj/DrGS5Yeu/9Vj0Htiuk4CdGppuijblhSgzDCzKhm"], ["session_token", "3M3OpzeWniICmW7j4bBu_w"], ["created_at", "2018-06-15 20:30:52.876633"], ["updated_at", "2018-06-15 20:30:52.876633"]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:30:52 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 308ms (Views: 299.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:30:53 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:30:53 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"jFzD+0+D83W0QH67e7UUc422OlWhD/XrTuvolMn+B9rcXqcL7o6fJX0uh0sM9Sl9N3tDwQ47Unp7uBDpRjnMKw==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$1MROVRo.PsDRzbRo9tU3VOqZ2h24DaAILZg91LNy1cqj9X9bWLsRi"], ["session_token", "vn8aFjZZDY8nR8Z47eOW0Q"], ["created_at", "2018-06-15 20:30:53.428179"], ["updated_at", "2018-06-15 20:30:53.428179"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "wpnOr2QS43OAn21ytHOeiQ"], ["updated_at", "2018-06-15 20:30:53.430151"], ["id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/3
+Completed 302 Found in 84ms (ActiveRecord: 1.0ms)
+Started GET "/users/3" for 127.0.0.1 at 2018-06-15 16:30:53 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (3) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 21ms (Views: 5.9ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:30:53 -0400
+Processing by SessionsController#new as HTML
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (30.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Grìma Wormtongue@Tol Brandir.com"], ["password_digest", "$2a$10$80ihMJ7HoQWmSmKLSzd1ku3ac4Asyujq/RZyxC5FqOWtDFy/RYR3a"], ["session_token", "YzqVfd2SM89ghhoyB21JZw"], ["created_at", "2018-06-15 20:34:10.278185"], ["updated_at", "2018-06-15 20:34:10.278185"]]
+  [1m[35m (9.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:34:10 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 643ms (Views: 635.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:34:11 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:34:11 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"fB5V/gdwMOLSInQ0epg2GrUL7Y+6Zj7XTNB5KdYmbpGKfLXmTvP3gh9JJTtpv6WUr6KqRJxzaAG6ETWQ3Dr70w==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$hGhFdTQKGcG4gSBPwEMSJeYQmkmnunvLdr/1Om37wL6P7qZRzoNAG"], ["session_token", "sSkRilfcZgCqGZPIM3QMVw"], ["created_at", "2018-06-15 20:34:11.151386"], ["updated_at", "2018-06-15 20:34:11.151386"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "vOSSEorgaGgFGdggOt84Dw"], ["updated_at", "2018-06-15 20:34:11.154446"], ["id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/4
+Completed 302 Found in 85ms (ActiveRecord: 1.5ms)
+Started GET "/users/4" for 127.0.0.1 at 2018-06-15 16:34:11 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (4) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 4.5ms | ActiveRecord: 0.3ms)
+  [1m[35m (29.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:34:11 -0400
+Processing by SessionsController#new as HTML
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (9.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Gimli@Gorgoroth.com"], ["password_digest", "$2a$10$1FnRG94eubHofd76SeFBK.LZq7kWBRQrYfEu3EbyWszZUT8Fsxv1q"], ["session_token", "NRFH7aM5Hsw9SpkN5w4VVw"], ["created_at", "2018-06-15 20:37:59.906024"], ["updated_at", "2018-06-15 20:37:59.906024"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:37:59 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 341ms (Views: 333.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:38:00 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:38:00 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"opq2wnYdMyzDreA1CHkj4hX3BcC6ETdpUgeFKnhydwfcr3cEJSzaqT91Krj/B+x60ZNsYUM7GzSxoHXg77s9qg==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$AOLN//sa12b0uJ2CK1V6MetrzA6tsG1h5K7xzLLKqMthuXkifp7N."], ["session_token", "s3VU6npJvBFA8S2e7GBcow"], ["created_at", "2018-06-15 20:38:00.422764"], ["updated_at", "2018-06-15 20:38:00.422764"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "XcboZJBSWzlQ9uHL610sag"], ["updated_at", "2018-06-15 20:38:00.424915"], ["id", 5]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/5
+Completed 302 Found in 80ms (ActiveRecord: 1.1ms)
+Started GET "/users/5" for 127.0.0.1 at 2018-06-15 16:38:00 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (5) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 17ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+  [1m[35m (15.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:38:00 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:38:00 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"ZKkwruilPw8wqHRsH+3EW6b5L0i2+389eZ+WzD9JbK/tPySnYr4tsjvmUs9+CBiuEqutXAK7sNWVF8JhdFmXaw==", "session"=>{"email"=>"Gimli@Gorgoroth.com", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Glorfindel@Vista.com"], ["password_digest", "$2a$10$B6pKyeuqWrUbKDHJXsUrpep9z/FeqvFgBfGo5PvYgw5h1nQ.8rK7O"], ["session_token", "bwqptugUkOiN-97Rfqia3Q"], ["created_at", "2018-06-15 20:42:45.920703"], ["updated_at", "2018-06-15 20:42:45.920703"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:42:45 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 469ms (Views: 460.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:42:46 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:42:46 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"uyvxBEyWOIIsPSzWviF0HkMW0CfSOArCqNK8OQBqrg1kexFlQ8JTuBN/dV4ai5no41tJy1XSpR4Gm1HRU7SMZQ==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$rq8Vt7JnVXynhIdAvX91PuHXRFSRCOOU09i5crFluj9.ztNavGnle"], ["session_token", "7OS6yH3jDNlTVtNancYvSg"], ["created_at", "2018-06-15 20:42:46.622224"], ["updated_at", "2018-06-15 20:42:46.622224"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "Q1DMzfTnF7j02qFgDIhzJg"], ["updated_at", "2018-06-15 20:42:46.627181"], ["id", 6]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/6
+Completed 302 Found in 117ms (ActiveRecord: 2.3ms)
+Started GET "/users/6" for 127.0.0.1 at 2018-06-15 16:42:46 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (6) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 5.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:42:46 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:42:46 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"plKVnfzhZaHE4JHWAdkuNMcUooBjT22DXh0hdOZZYxLmX6KFJ8zqMoBO6hDpat/wGmSMD2kldAn4ZNNV9yLuJQ==", "session"=>{"email"=>"Glorfindel@Vista.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Glorfindel@Vista.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "SC10y9JxEmXHAxvEvpX9GQ"], ["updated_at", "2018-06-15 20:42:46.940559"], ["id", 5]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/5
+Completed 302 Found in 113ms (ActiveRecord: 0.9ms)
+Started GET "/users/5" for 127.0.0.1 at 2018-06-15 16:42:46 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (5) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Éowyn@Gap of Rohan.com"], ["password_digest", "$2a$10$cgPF1uh2OvAMQPybydiaM.ywinfBqLyBGt6QZYwTklGTwmvEpWvpm"], ["session_token", "RWIC3TfkaDvl4zxIKvdfTw"], ["created_at", "2018-06-15 20:45:53.327582"], ["updated_at", "2018-06-15 20:45:53.327582"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:45:53 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 321ms (Views: 313.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:45:53 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:45:53 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"BrYPh31nqnQbK9Y0ZwBOe5L4nlhDlw7WpQOZbui+f281FqbN9qFPgczGAOKoeKy+hk3Z1rWza2JdQmHyFZcofA==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (9.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$epbh.EXjajXzHxGAcRRAYOYth0Wc47hZaV77bvaf2ip/Bctml/.FK"], ["session_token", "txwsm0_yCF1k9UkySMYwJQ"], ["created_at", "2018-06-15 20:45:53.869123"], ["updated_at", "2018-06-15 20:45:53.869123"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "osBSmZF5Vgy7DVBk7VDwjQ"], ["updated_at", "2018-06-15 20:45:53.881806"], ["id", 7]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/7
+Completed 302 Found in 100ms (ActiveRecord: 10.7ms)
+Started GET "/users/7" for 127.0.0.1 at 2018-06-15 16:45:53 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (7) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 46ms (Views: 9.7ms | ActiveRecord: 0.2ms)
+  [1m[35m (57.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:45:54 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:45:54 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"MEsoGzqIWPgeEv0fx8BDzafZJN0YT0ywht9C7EuSpI32dOqwc5g7G02h3yRYJkRoqzo+HqMnZZ5U5hCe3TTzkg==", "session"=>{"email"=>"Éowyn@Gap of Rohan.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Éowyn@Gap of Rohan.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (25.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "SQO3HWbY8cZXGxtqOe9qUg"], ["updated_at", "2018-06-15 20:45:54.324817"], ["id", 6]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/6
+Completed 302 Found in 134ms (ActiveRecord: 26.4ms)
+Started GET "/users/6" for 127.0.0.1 at 2018-06-15 16:45:54 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (6) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+  [1m[35m (11.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Samwise Gamgee@Eä.com"], ["password_digest", "$2a$10$ZLg.Pbqoy8XxLPpshkwC7ei8hEQxOL8SPVD2WhVxVFARNozujLQju"], ["session_token", "3fybbtvkXwmzbG2xmCIrnQ"], ["created_at", "2018-06-15 20:46:29.561179"], ["updated_at", "2018-06-15 20:46:29.561179"]]
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:46:29 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 238ms (Views: 231.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:46:29 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:46:29 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"CIDimdb3WmL5bx0EkO+pl1Pg3NT4m0Dim04R7gnTaGImB3izlTvXRhib42H4bc56WAtWZutLgUqOIVbGStBXcw==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$w12Tq2aY5VMqdKHhRwnIhekypWQZZyYhdgRZyUTzM2z/pIcwdffbO"], ["session_token", "h3LPhmAAuSNqkz4aGPJnKg"], ["created_at", "2018-06-15 20:46:30.012511"], ["updated_at", "2018-06-15 20:46:30.012511"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "xlbx4cQMDFB5Yt-ua6lHMQ"], ["updated_at", "2018-06-15 20:46:30.016167"], ["id", 8]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/8
+Completed 302 Found in 168ms (ActiveRecord: 1.6ms)
+Started GET "/users/8" for 127.0.0.1 at 2018-06-15 16:46:30 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (8) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 233ms (Views: 135.6ms | ActiveRecord: 0.3ms)
+  [1m[35m (56.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:46:30 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:46:30 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"VROU7rA2Q3BoQ/cYJO1cFgsNahCRQpYMkW9N+INYwZD48c7pGVyFpF63sM9EK9Am31HOiGOgQ3ri77o8XKyhCQ==", "session"=>{"email"=>"Samwise Gamgee@Eä.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Samwise Gamgee@Eä.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "OazAvCCCrTi4aLh463d9dg"], ["updated_at", "2018-06-15 20:46:30.724757"], ["id", 7]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/7
+Completed 302 Found in 102ms (ActiveRecord: 1.1ms)
+Started GET "/users/7" for 127.0.0.1 at 2018-06-15 16:46:30 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (7) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Samwise Gamgee@Regions of the Shire.com"], ["password_digest", "$2a$10$l3wQi8jb2te.ufKNXp6n8.npGa0oy/KSmgNbUSiHWEgCdppZKuMf6"], ["session_token", "1Q3f-Mee7QMJ_yiKfWRq3g"], ["created_at", "2018-06-15 20:47:28.680055"], ["updated_at", "2018-06-15 20:47:28.680055"]]
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:47:28 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 335ms (Views: 328.1ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:47:29 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:47:29 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"csLknpqJpno3L6k4HU4ze8MvB/lC2fz94ve8nHKsGYo35Ppn0YfnAbQzt9cAgoa7aBBDoApdGw0WfvV8JnORRA==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$blOY01GXHoAM1K9UCGCQ.O/iySKwry0HlnZPIz7R/.iNyGeHHpG7i"], ["session_token", "wxMuqPdLUwGF0rVDbwUAPQ"], ["created_at", "2018-06-15 20:47:29.210252"], ["updated_at", "2018-06-15 20:47:29.210252"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "QQIc_0Pz7-zWXcI7a_0Dgw"], ["updated_at", "2018-06-15 20:47:29.214368"], ["id", 9]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/9
+Completed 302 Found in 88ms (ActiveRecord: 1.8ms)
+Started GET "/users/9" for 127.0.0.1 at 2018-06-15 16:47:29 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (9) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "QQIc_0Pz7-zWXcI7a_0Dgw"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "QQIc_0Pz7-zWXcI7a_0Dgw"], ["LIMIT", 1]]
+Completed 200 OK in 76ms (Views: 42.7ms | ActiveRecord: 0.8ms)
+  [1m[35m (1.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:47:29 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (9.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 112ms (Views: 102.3ms | ActiveRecord: 9.4ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:47:29 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"MS+qbIewiS/4M5mx5cfZ/vtCxPtg7kNZg2U+pzCoxDgstirXMJKCgflzxatGUdr3OoVzO0SkdRLFw8iHzLSQ9g==", "session"=>{"email"=>"Samwise Gamgee@Regions of the Shire.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Samwise Gamgee@Regions of the Shire.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "1AjOa24TSGncj1c7SUE4nA"], ["updated_at", "2018-06-15 20:47:29.659782"], ["id", 8]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/8
+Completed 302 Found in 162ms (ActiveRecord: 1.3ms)
+Started GET "/users/8" for 127.0.0.1 at 2018-06-15 16:47:29 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (8) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "1AjOa24TSGncj1c7SUE4nA"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "1AjOa24TSGncj1c7SUE4nA"], ["LIMIT", 1]]
+Completed 200 OK in 42ms (Views: 6.1ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Quickbeam@Bridge of Khazad-dûm.com"], ["password_digest", "$2a$10$z3BbaHNWEj0M87zoGaMIieKjBxnotG92QV/iBWBiOM0e5tbXna9Wi"], ["session_token", "ZaBNlmgMaRUv-vLATRP9KA"], ["created_at", "2018-06-15 20:48:14.091905"], ["updated_at", "2018-06-15 20:48:14.091905"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:48:14 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 248ms (Views: 240.9ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:48:14 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.5ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:48:14 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"Lt32jQuGUw8YARXLfRez/whQqmxsahigvSPwxspchYw7WPH1kcPtNaP4ffPjbnp2iRnJK8sbn+2bHRm1hFss9w==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$1afHSTrh.eFcuxT1Zbm2t.hj62Ups6HXxipaz6Yz5GKwjz1FTHZbu"], ["session_token", "meg4aR6s_SEOuNLyW2xkkw"], ["created_at", "2018-06-15 20:48:14.679015"], ["updated_at", "2018-06-15 20:48:14.679015"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "4Bdi1S2cSkPRcjNtiB9eLA"], ["updated_at", "2018-06-15 20:48:14.689289"], ["id", 10]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/10
+Completed 302 Found in 324ms (ActiveRecord: 3.2ms)
+Started GET "/users/10" for 127.0.0.1 at 2018-06-15 16:48:14 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (10) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "4Bdi1S2cSkPRcjNtiB9eLA"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "4Bdi1S2cSkPRcjNtiB9eLA"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "4Bdi1S2cSkPRcjNtiB9eLA"], ["LIMIT", 1]]
+Completed 200 OK in 58ms (Views: 31.2ms | ActiveRecord: 3.2ms)
+  [1m[35m (10.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:48:14 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.3ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:48:14 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"9oSR6SBqaOHZ3ea6IZZzXHEuJ8QHTHUQyRXBDVu0sKJWuNo/hIRyWv+QAM2ZdhrgsP/pm9gdHVmIxF3/WXUyEQ==", "session"=>{"email"=>"Quickbeam@Bridge of Khazad-dûm.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Quickbeam@Bridge of Khazad-dûm.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "toJFYp51nU6idiHUFRyUAg"], ["updated_at", "2018-06-15 20:48:14.953856"], ["id", 9]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/9
+Completed 302 Found in 82ms (ActiveRecord: 0.9ms)
+Started GET "/users/9" for 127.0.0.1 at 2018-06-15 16:48:14 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (9) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "toJFYp51nU6idiHUFRyUAg"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "toJFYp51nU6idiHUFRyUAg"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "toJFYp51nU6idiHUFRyUAg"], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Peregrin Took@Land of the Sun.com"], ["password_digest", "$2a$10$n/578jGriF7oQBE50tIyMuFxMPyiPkZCi056nwkB4ziaKiUrZ/WsC"], ["session_token", "d47kgry9eVccW2OnKrmhqw"], ["created_at", "2018-06-15 20:49:35.192509"], ["updated_at", "2018-06-15 20:49:35.192509"]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:49:35 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 255ms (Views: 247.4ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:49:35 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:49:35 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"OQNSv9tYaOPi4pcoAl12nU30uB8NU1g2hn0we/Vo8lbYakkl8vL/W8bLngxI5wj4fEatv/Zw8IfX+8RI24yqpA==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$LoAEEEstBPTll.EBvUHfxuKR0spK.rK0m8awI.vtVBBhyhuDhLCle"], ["session_token", "Iir89ex4JiQRoONv6gem6g"], ["created_at", "2018-06-15 20:49:35.598285"], ["updated_at", "2018-06-15 20:49:35.598285"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "LDV1gyrGBsZ-j_Pg8rHN1g"], ["updated_at", "2018-06-15 20:49:35.602827"], ["id", 11]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/11
+Completed 302 Found in 92ms (ActiveRecord: 2.3ms)
+Started GET "/users/11" for 127.0.0.1 at 2018-06-15 16:49:35 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (11) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "LDV1gyrGBsZ-j_Pg8rHN1g"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "LDV1gyrGBsZ-j_Pg8rHN1g"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "LDV1gyrGBsZ-j_Pg8rHN1g"], ["LIMIT", 1]]
+Completed 200 OK in 24ms (Views: 15.5ms | ActiveRecord: 0.7ms)
+  [1m[35m (5.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:49:35 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 49ms (Views: 46.4ms | ActiveRecord: 0.6ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:49:35 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"nttsEPQ+cVmR/9rNcyPUEp/PovYBYmbH3FvFeuONo8Xi8/8LLdw35+H5YHuso07jVzaWcspsKwETcDihQnK6og==", "session"=>{"email"=>"Peregrin Took@Land of the Sun.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Peregrin Took@Land of the Sun.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "BvYLvj9UxyBCN334DtO09w"], ["updated_at", "2018-06-15 20:49:35.957492"], ["id", 10]]
+  [1m[35m (0.6ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/10
+Completed 302 Found in 224ms (ActiveRecord: 2.0ms)
+Started GET "/users/10" for 127.0.0.1 at 2018-06-15 16:49:35 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (10) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "BvYLvj9UxyBCN334DtO09w"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "BvYLvj9UxyBCN334DtO09w"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "BvYLvj9UxyBCN334DtO09w"], ["LIMIT", 1]]
+Completed 200 OK in 21ms (Views: 13.2ms | ActiveRecord: 0.7ms)
+  [1m[35m (9.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Bilbo Baggins@Angband.com"], ["password_digest", "$2a$10$5aPUHvq5veEqClHVtrT/XuD2JAgprXLmgn12Ylhq6zFcZ8bmV0Ry2"], ["session_token", "XMbPqgn0vyt_xqhrLt9iVQ"], ["created_at", "2018-06-15 20:49:57.982891"], ["updated_at", "2018-06-15 20:49:57.982891"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:49:58 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 364ms (Views: 355.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:49:58 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:49:58 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"ImXYpZFD3tXhv92izsgFokQyuyQXBIaIwioAl2IfMY5ob1goO1R3oO09dKlqdvRydaqVPGCAMLJ6g9qUNT1mCw==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$oidOIg4T14FQ5rS3mk1pBeTpg7PF72PPB50pkDeNBNja0Zewu3r92"], ["session_token", "yH9G-inskrDNEd1BgsTIdQ"], ["created_at", "2018-06-15 20:49:58.609148"], ["updated_at", "2018-06-15 20:49:58.609148"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "zQ9yzykf4M-WbJ-5ULud0A"], ["updated_at", "2018-06-15 20:49:58.614280"], ["id", 12]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/12
+Completed 302 Found in 95ms (ActiveRecord: 1.8ms)
+Started GET "/users/12" for 127.0.0.1 at 2018-06-15 16:49:58 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (12) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 6.2ms | ActiveRecord: 0.2ms)
+  [1m[35m (2.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:49:58 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:49:59 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"b+CVGCbph2cgpyaFOA1qXxDLSyzdm8Bk9d3Yqz6ErP06OyWkmHKoZrD0n6nB0unoiJ4aT3oCmEBdLyVP3UhMpQ==", "session"=>{"email"=>"Bilbo Baggins@Angband.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Bilbo Baggins@Angband.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "QArDnWY7Wb40u7XquIeBeQ"], ["updated_at", "2018-06-15 20:49:59.130854"], ["id", 11]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/11
+Completed 302 Found in 123ms (ActiveRecord: 1.4ms)
+Started GET "/users/11" for 127.0.0.1 at 2018-06-15 16:49:59 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (11) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Galadriel@Black Gate.com"], ["password_digest", "$2a$10$EFvkiXzg167OM2o50xdJreY5erHmAEh8POKk0HhHlx6UtrizZ2PoK"], ["session_token", "pd-0I9JeHxwgUVRUs_PcCQ"], ["created_at", "2018-06-15 20:50:48.884156"], ["updated_at", "2018-06-15 20:50:48.884156"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:50:48 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 389ms (Views: 380.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:50:49 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:50:49 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"OAu5eise++Gcus/J9eE5fjDNjDjAlsmt4jQfvjMbBnpbLrEPvUkeE7KTMYqG8f+1q5F3XReszj9Ok8oP+QEY3w==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$m4LC1Rx5L6YO6RGOiH.qGeHm4xOc9sSSNFA/SWEJVGkyHI0FjW.bW"], ["session_token", "4xKGQLv7HWXj92hXppDXrg"], ["created_at", "2018-06-15 20:50:49.537958"], ["updated_at", "2018-06-15 20:50:49.537958"]]
+  [1m[35m (0.4ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "D90Kgfx92W3vC2Bhxd0mig"], ["updated_at", "2018-06-15 20:50:49.545554"], ["id", 13]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/13
+Completed 302 Found in 96ms (ActiveRecord: 2.4ms)
+Started GET "/users/13" for 127.0.0.1 at 2018-06-15 16:50:49 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (13) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 91152ms (Views: 56.8ms | ActiveRecord: 0.2ms)
+  [1m[35m (11.4ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:52:20 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:52:20 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"CopRPRuyERnIm8QDzqD4lN01W6H9JLDCRktteQaxnr1xuIukir5nvv7ZxYGTadlEp3yRVU3hSQyJB1FwPdCsSw==", "session"=>{"email"=>"Galadriel@Black Gate.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Galadriel@Black Gate.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "-tCgKHSctlbIsRm9P6f6mg"], ["updated_at", "2018-06-15 20:52:20.972290"], ["id", 12]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/12
+Completed 302 Found in 99ms (ActiveRecord: 1.3ms)
+Started GET "/users/12" for 127.0.0.1 at 2018-06-15 16:52:20 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (12) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1541ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Legolas@East Beleriand.com"], ["password_digest", "$2a$10$ww4kldKTRHgWhHuPOUtZEONCG.fJ7ulyuqq7faPEXz5zK3LHXo7h6"], ["session_token", "7MG2PORbLT8RO5YFDubuVA"], ["created_at", "2018-06-15 20:52:38.601980"], ["updated_at", "2018-06-15 20:52:38.601980"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:52:38 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 319ms (Views: 310.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:52:38 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:52:39 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"nfqTaQ6fa5Q2h2PsL/wMGoeaOKO26kR1NVkRgv2pwZlyYxdGKLC62NGwfbjZdTC783hunt6sGRGcNBTV8aYw/A==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$tk/THeVSJBGq2l2.9eD9ru4XuZIPcWdIHwb6em9MiG.RqCxFrU5ua"], ["session_token", "vvi2_ycbasZ8k42illuTeA"], ["created_at", "2018-06-15 20:52:39.122162"], ["updated_at", "2018-06-15 20:52:39.122162"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "pO6OFx9VFYoez-44wLMANA"], ["updated_at", "2018-06-15 20:52:39.126413"], ["id", 14]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/14
+Completed 302 Found in 95ms (ActiveRecord: 1.5ms)
+Started GET "/users/14" for 127.0.0.1 at 2018-06-15 16:52:39 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (14) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6068ms (Views: 7.0ms | ActiveRecord: 0.7ms)
+  [1m[35m (1.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:52:45 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:52:45 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"7wTbGpwh2ZP55UcJB/8q9hfAUHspJZMQmNEcHqz9vZgvrc3c//ptFmHo6ci5+QbS5eoXi4mRIat8xbhQDrx9DQ==", "session"=>{"email"=>"Legolas@East Beleriand.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Legolas@East Beleriand.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "sJ81dYyKFXLIgGwtGwxl8Q"], ["updated_at", "2018-06-15 20:52:45.704323"], ["id", 13]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/13
+Completed 302 Found in 111ms (ActiveRecord: 1.2ms)
+Started GET "/users/13" for 127.0.0.1 at 2018-06-15 16:52:45 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (13) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34929ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Sauron@Narchost.com"], ["password_digest", "$2a$10$/nEQMEOrhz0JM1otEBCNs..43LK3hV5BEspQUXGLinqfeXPWJpMUi"], ["session_token", "yE_lvWkuk1cE7vonM0ZOxQ"], ["created_at", "2018-06-15 20:54:49.268086"], ["updated_at", "2018-06-15 20:54:49.268086"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:54:49 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 333ms (Views: 324.4ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:54:49 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:54:49 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"o1rwsqwgz+tpj36mQoYRtM67fvuqz6/W9dBpjAl8b5yjbbqVNssk6VIs7VZQqr6J+fwxwsIv5SLHg20NRVI9uA==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$RepfhNx0zV3F7Dyw1ecry.ddCjUsT0WafjJVj4HL2Om2748x7Sf/G"], ["session_token", "hRBqVdk6OfBsz2Ou-zDS_A"], ["created_at", "2018-06-15 20:54:49.893642"], ["updated_at", "2018-06-15 20:54:49.893642"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "KgXaerQAgn5LgNrcvc0Y-w"], ["updated_at", "2018-06-15 20:54:49.899874"], ["id", 15]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/15
+Completed 302 Found in 174ms (ActiveRecord: 2.3ms)
+Started GET "/users/15" for 127.0.0.1 at 2018-06-15 16:54:49 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (15) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "KgXaerQAgn5LgNrcvc0Y-w"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "KgXaerQAgn5LgNrcvc0Y-w"], ["LIMIT", 1]]
+Completed 200 OK in 4325ms (Views: 12.6ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.9ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:54:54 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.4ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:54:54 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"L4k8hkft0piCFo3Xau5NRXCVgTf/BEh6GfUtmqMe7gLX34mbsxrwfdh7vzo281WDCqw7BpDWJ7PDRhmHLnbB/Q==", "session"=>{"email"=>"Sauron@Narchost.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Sauron@Narchost.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "4ZyM1x6owvpNw6K1l7UCQw"], ["updated_at", "2018-06-15 20:54:54.540014"], ["id", 14]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/14
+Completed 302 Found in 246ms (ActiveRecord: 3.3ms)
+Started GET "/users/14" for 127.0.0.1 at 2018-06-15 16:54:54 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (14) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "4ZyM1x6owvpNw6K1l7UCQw"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "4ZyM1x6owvpNw6K1l7UCQw"], ["LIMIT", 1]]
+Completed 200 OK in 11633ms (Views: 3.9ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:55:16 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 252ms (Views: 243.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:55:16 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:55:16 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"CBDWcazUaGeYHZNSNehgTqp3Rw36oOYwJuR7ZKzuO5CeHwH++3v0SaH8T9bMuFHqeUthEKKA/qd7OLAzQ9qIdw==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (8.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$VzizoszelFuPIy4oHeW3F.bdLcpcwoiztSg4CVflmzBeDso5UJXku"], ["session_token", "-3w5WgjYtANgLDmPdrXm5A"], ["created_at", "2018-06-15 20:55:16.669073"], ["updated_at", "2018-06-15 20:55:16.669073"]]
+  [1m[35m (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "s48XYMWdUrBW6vIy5GFIwQ"], ["updated_at", "2018-06-15 20:55:16.711333"], ["id", 15]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/15
+Completed 302 Found in 239ms (ActiveRecord: 10.4ms)
+Started GET "/users/15" for 127.0.0.1 at 2018-06-15 16:55:16 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (15) LIMIT ?[0m  [["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "s48XYMWdUrBW6vIy5GFIwQ"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "s48XYMWdUrBW6vIy5GFIwQ"], ["LIMIT", 1]]
+Completed 200 OK in 52568ms (Views: 78.9ms | ActiveRecord: 0.7ms)
+  [1m[35m (12.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:56:09 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.4ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:56:09 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"Wdce5199opnhgEdS7IAZbLpg3opAk/Nu2BFLE4UMk5DtjsCVBIq8ssjW7KiV/ESbKNUHcDd5hQghFvYLBEATOA==", "session"=>{"email"=>"Beregond@Taur-im-Duinath.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Beregond@Taur-im-Duinath.com"], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 14ms (Views: 6.9ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Éomer@Minas Tirith.com"], ["password_digest", "$2a$10$F4qeXKAiK/FnnbsPYfhPnOlZnCh.TvEawjxvqsp6tV2t5H4hkPkvq"], ["session_token", "CXJj7ZoZCjCxxPCYjGHFgw"], ["created_at", "2018-06-15 20:56:25.811779"], ["updated_at", "2018-06-15 20:56:25.811779"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:56:25 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 357ms (Views: 348.2ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:56:26 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.4ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:56:26 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"tETwAi00/R1tea+Jieg7NALizTFTfLqmCdu+flii9nTghdOSTU5VuMG9KjwP3LmmQbQTdW5Vk1VLYIj3aeiRmw==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$Ua0HrBtHHdhIhIyet3KtCe6BUi1SfDr4WVNE4n1EqCo4wSJT.eQ3m"], ["session_token", "8E9ZXTkOk0EZm4Y_WQneKA"], ["created_at", "2018-06-15 20:56:26.409435"], ["updated_at", "2018-06-15 20:56:26.409435"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "12pRDjhG2pvNwRkGlh6LMg"], ["updated_at", "2018-06-15 20:56:26.414487"], ["id", 16]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/16
+Completed 302 Found in 246ms (ActiveRecord: 1.9ms)
+Started GET "/users/16" for 127.0.0.1 at 2018-06-15 16:56:26 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "12pRDjhG2pvNwRkGlh6LMg"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "12pRDjhG2pvNwRkGlh6LMg"], ["LIMIT", 1]]
+Completed 200 OK in 11198ms (Views: 9.9ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.8ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:56:37 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 26ms (Views: 23.2ms | ActiveRecord: 0.6ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:56:37 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"gzQi+EWb9lag/b5Ks3D4etQpPU3urQRLRVB1E6bHg4/27EqRpmGEWpYbOqwJw4Nyhi82izUP8RosLvsTTKhZmg==", "session"=>{"email"=>"Éomer@Minas Tirith.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Éomer@Minas Tirith.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "jDENej5yyb8Ok1yP5j4MBQ"], ["updated_at", "2018-06-15 20:56:37.991668"], ["id", 15]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/15
+Completed 302 Found in 165ms (ActiveRecord: 1.5ms)
+Started GET "/users/15" for 127.0.0.1 at 2018-06-15 16:56:38 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "jDENej5yyb8Ok1yP5j4MBQ"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "jDENej5yyb8Ok1yP5j4MBQ"], ["LIMIT", 1]]
+Completed 200 OK in 15096ms (Views: 5.8ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "Legolas@Máhanaxar.com"], ["password_digest", "$2a$10$NUNn8xRPIDyCbN3r2xAPkeSJv/esxIoBinyxuTfSevccFg.In35nC"], ["session_token", "t71j67DUnW2T9jEukuHxUA"], ["created_at", "2018-06-15 20:57:43.893195"], ["updated_at", "2018-06-15 20:57:43.893195"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:57:43 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (4.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 312ms (Views: 302.5ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2018-06-15 16:57:44 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.2ms)
+Started POST "/users" for 127.0.0.1 at 2018-06-15 16:57:44 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"MNqQCjE+KpdYFYvOvTycQUqu4pTAVFdX/4w9KkBD7xkXZ+aclEy2ep6CM9LOPFUgwD7mwgt4f619/h8Ok9yZ4g==", "user"=>{"email"=>"testing@email.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "testing@email.com"], ["password_digest", "$2a$10$Xs/vECz.C9wGgjxCr/nIp.W.Q0QmewZh4Bfgy9r1N8Can.F4yGKFu"], ["session_token", "cAnDwXOtL4ACHEekCnmw7w"], ["created_at", "2018-06-15 20:57:44.359265"], ["updated_at", "2018-06-15 20:57:44.359265"]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "XVIb1gB9CM5XwR19k3kJMg"], ["updated_at", "2018-06-15 20:57:44.362076"], ["id", 17]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/17
+Completed 302 Found in 93ms (ActiveRecord: 1.2ms)
+Started GET "/users/17" for 127.0.0.1 at 2018-06-15 16:57:44 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "XVIb1gB9CM5XwR19k3kJMg"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "XVIb1gB9CM5XwR19k3kJMg"], ["LIMIT", 1]]
+Completed 200 OK in 14ms (Views: 7.0ms | ActiveRecord: 0.9ms)
+  [1m[35m (0.7ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2018-06-15 16:57:44 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.3ms)
+Started POST "/session" for 127.0.0.1 at 2018-06-15 16:57:44 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"7oNEfCMZtynQypcjJ8cPkCPQojAv2kwvzTP34v7IcHne8QIkZgOQvfWwfaAMjQrncIJL2KMETligJ6Qan9/yRQ==", "session"=>{"email"=>"Legolas@Máhanaxar.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "Legolas@Máhanaxar.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["session_token", "HKgBnj7c8ka0EfKwS48WLA"], ["updated_at", "2018-06-15 20:57:44.504197"], ["id", 16]]
+  [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/16
+Completed 302 Found in 86ms (ActiveRecord: 0.8ms)
+Started GET "/users/16" for 127.0.0.1 at 2018-06-15 16:57:44 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "HKgBnj7c8ka0EfKwS48WLA"], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = ? LIMIT ?[0m  [["session_token", "HKgBnj7c8ka0EfKwS48WLA"], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
